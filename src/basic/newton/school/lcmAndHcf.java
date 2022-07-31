@@ -1,10 +1,12 @@
 package basic.newton.school;
 
-public class lcmAndHcf {
 
-	public class Main
-	{
+
+	public class lcmAndHcf{
+	
 		public static void main(String[] args) {
+			
+		}
 //	 		System.out.println("Hello World");
 //	      Pythagoras -> Done
 //	 		GCD
@@ -37,7 +39,9 @@ public class lcmAndHcf {
 	    int n2 = 36;
 	    
 	    int gcd = alsoGCD(n1,n2);
-	    System.out.println(gcd);
+//	    System.out.println(gcd);
+	     
+	    
 	    
 	    // lcm -> (n1*n2)/(gcd);
 	    
@@ -45,7 +49,6 @@ public class lcmAndHcf {
 	    // 32 -> max ()
 	    // max -> 32
 	    
-		}
 		
 //	 	n1 -> 24 -> 36 -> 24
 	// n2 -> 36 -> 24 -> 12
@@ -99,6 +102,7 @@ public class lcmAndHcf {
 //	 	        }
 //	 	    }
 //	 	    return false;
-//	 	}
 	}
+//	 	}
+	
 

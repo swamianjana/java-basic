@@ -59,12 +59,14 @@ package basic.newton.school;
 					arr[i][j]=my.nextInt();
 				}
 			  }
+//			for 90 degree
 			for(int i=N-1;i>=0;i--){
 				for(int j=0;j<N;j++){
 					System.out.print(arr[j][i]+" ");
 				}
 				System.out.println();
 		}
+//			for 180 degree
 			System.out.println();
 			for(int i=0;i<N;i++){
 				for(int j=0;j<N;j++){
