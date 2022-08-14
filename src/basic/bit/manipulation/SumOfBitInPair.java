@@ -25,13 +25,12 @@ public class SumOfBitInPair {
 	}
 	
 	static int decimalToBinaryAndCount1(int decimal) {
-		int count = 0;
-		
-		while(decimal != 0) {
+		int count = 0;  
+		while(decimal > 0) {
 			if(decimal % 2 == 1) {
-				count++;
+				count++;  
 			}
-			decimal /= 2; 
+			decimal /= 2;   // means deccimal = decimal / 2
 		}
 		
 		return count; // string to integer
@@ -44,7 +43,7 @@ public class SumOfBitInPair {
 	 * 
 	 * @param arr
 	 */
-	static void printAllPairs(int[] arr) {
+	static void printAllPairs(int[] arr) {   	// line 46 to 51 code use for print all  pair of an array
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
 				System.out.print(arr[i] + "," + arr[j] + " | ");
@@ -54,7 +53,7 @@ public class SumOfBitInPair {
 	}
 	
 	static void printAllPairsDiagonal(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) { //line 55 to 61 code use for print diadonal pair
 			for (int j = 0; j <=i; j++) {
 				System.out.print(arr[i] + "," + arr[j] + " | ");
 			}
