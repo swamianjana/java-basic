@@ -1,5 +1,5 @@
 
-NoXor (Simple Contest)
+//NoXor (Simple Contest)
 //Easy
 //
 //Time Limit: 2 sec

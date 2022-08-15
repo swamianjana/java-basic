@@ -39,10 +39,10 @@ package question;
 class maximumSubArray {
 	
 	public static void main(String[] args) {
-		maxSoFar[sum];
+		
 }
 	
-public int maxSubArray(int[] nums) {
+public static int maxSubArray(int[] nums) {
 	if(nums.length == 0) return 0;
 	
 	int sum = nums[0];
