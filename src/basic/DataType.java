@@ -20,7 +20,7 @@ public class DataType {
 		
 //		boolean
 //		jS: let isPased = true;
-		boolean isPassed = false;
+		boolean isPassed = false;		// java written in this type
 //		
 //		console.log("is passed value" + isPassed)
 		System.out.println("is passed value =  " + isPassed);

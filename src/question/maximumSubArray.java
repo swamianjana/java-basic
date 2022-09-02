@@ -39,7 +39,10 @@ package question;
 class maximumSubArray {
 	
 	public static void main(String[] args) {
-		
+
+		  int a[] = {-2,1,-3,4,-1,2,1,-5,4};
+//		 we call a main method 
+	        System.out.println(maxSubArray(a));
 }
 	
 public static int maxSubArray(int[] nums) {

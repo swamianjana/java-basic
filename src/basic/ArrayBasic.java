@@ -21,7 +21,7 @@ public class ArrayBasic {
 		displayArray(arr);
 		
 		// dynamic 
-//		syntex
+//		Syntax
 //		1) datatype[]
 //		2) variableName
 //		3) new datatype[size];
