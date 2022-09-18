@@ -113,7 +113,7 @@ class OwnLinkedListImp {
 	}
 
 	// insert new node at the position
-	Node insertPosition(Node root, int val, int pos) throws Exception {
+	public Node insertPosition(Node root, int val, int pos) throws Exception {
 		if (pos == 0) {
 			return insertStart(root, val);
 		}
