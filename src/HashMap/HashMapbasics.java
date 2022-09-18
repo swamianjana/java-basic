@@ -8,7 +8,7 @@ import java.util.*;
 //		in line 9 we use anything in place of map it our choice
 		HashMap<String, Integer> map = new HashMap<>();
 		
-//		insertion
+//		insertion		insert the value or new value
 		map.put("India", 120);
 		map.put("Us", 100);
 		map.put("China", 80);
@@ -57,7 +57,8 @@ import java.util.*;
 //	map.entrySet = means map ka ik set version , map ko mne set me convert kr deya h , or is set ki vo value hogi 
 //	unhe m ik ik kr k triverse krugi , set k andr pair hi h sare .
 	
-//	 Map.Entry<String, Integer> = type h mtlb string h ya int 
+//	 Map.Entry<String, Integer> = type h mtlb string h ya int
+	
 	
 //	e = is e k andr key be h or value be h
 	
@@ -65,25 +66,27 @@ import java.util.*;
 //	line 64 ko hmne hashmap ki style me line 68 me convert kr k likha h
 	
 	//Iteration (1)					very important 
-    for( Map.Entry<String, Integer> e : map.entrySet()) {
+    for(Map.Entry<String, Integer> e : map.entrySet()) {
         System.out.println(e.getKey());
         System.out.println(e.getValue());
     }
-
-    //Iteration (2)
     
-//    only key niklte h 
+    //Iteration (2)
+    			
+//    only key niklte h
+    
     Set<String> keys = map.keySet();
     for(String key : keys) {
         System.out.println(key+ " " + map.get(key));
     }
 //    key = is se key ki value aaegi 
 //    map.get(key) = key k coresponding jo be pair ki value thi map k andr stored  
-	
-    
+						
+    						
     //Removing
     map.remove("China");
     System.out.println(map);
-
+    
 	}
+	
 }

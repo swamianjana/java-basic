@@ -56,9 +56,10 @@ public class FinderNumber {
 //			return "Zero";
 //		}
 		
-//		(condition) ? true : false
+//		(condition) ? true : false		this is calles ternary operator means short form of loop
 		return (num > 0) ? 1 : (num < 0) ? -1 : 0;
 	}
-
-
+		
+			
 }
+

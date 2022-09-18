@@ -35,10 +35,10 @@ public class QuickSort {
 	
 	public static void QuickSort(int arr[], int low, int high) {
 		if(low < high) {
-			int pidx = partition(arr,low,high);					// pidx = pivot index
+			int pidx = partition(arr, low, high);					// pidx = pivot index
 			
-			QuickSort(arr,low,pidx-1);
-			QuickSort(arr,pidx+1,high);
+			QuickSort(arr, low, pidx-1);
+			QuickSort(arr, pidx+1, high);
 			
 		}
 		

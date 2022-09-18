@@ -11,7 +11,7 @@ public class DataType {
 		//		syntex
 //		dataType variableName = value;
 
-		//		boolean; true or false
+		//		boolean ->  true or false
 //		char; A or B or C
 //		int; -2^31 to 2^31 ( 1 or 2 ... )
 //		float; -2^31 to 2^31 (deciaml values 1.1 or 1.5 or 10.0)
@@ -19,9 +19,9 @@ public class DataType {
 //		double -2^61 to 2^61 (deciaml values 1.1 or 1.5 or 10.0)
 		
 //		boolean
-//		jS: let isPased = true;
+//		jS: let isPassed = true;
 		boolean isPassed = false;		// java written in this type
-//		
+//				
 //		console.log("is passed value" + isPassed)
 		System.out.println("is passed value =  " + isPassed);
 		
@@ -32,7 +32,7 @@ public class DataType {
 		
 //		int num2 = 3.1; gives error for missmatch
 		
-//		char: for single character
+//		char: use  for single character
 //		A, a , 1, 3, . , 
 		
 		char vowelChar = 'A';
