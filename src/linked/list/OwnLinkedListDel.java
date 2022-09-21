@@ -34,6 +34,10 @@ public class OwnLinkedListDel {
 }
 
 // Inheritence - 
+// parant class - OwnLinkedListImp
+// child class (subclass) - OwnLinkedListDelImp 
+// child class has all methods of its parant class
+
 class OwnLinkedListDelImp extends OwnLinkedListImp {
 
 	// given index and we have to remove that node
