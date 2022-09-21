@@ -25,7 +25,7 @@ public class OwnLinkedList {
 		// insert
 		// 1 4 9 22 14 16
 
-		OwnLinkedListImp ownLinkedListImp = new OwnLinkedListImp();
+		OwnLinkedListImp ownLinkedListImp = new OwnLinkedListImp();			// Imp = means implimention
 		Node root = null;
 
 		// for last
@@ -41,6 +41,7 @@ public class OwnLinkedList {
 //		root = ownLinkedList.insertEnd(root, 16);
 
 		// for insert at the beginning
+		
 //		root = ownLinkedList.insertStart(root, 1);
 //		root = ownLinkedList.insertStart(root, 4);
 //		root = ownLinkedList.insertStart(root, 9);
@@ -52,7 +53,7 @@ public class OwnLinkedList {
 		root = ownLinkedListImp.insertPosition(root, 9, 2);
 		ownLinkedListImp.displayLinkedList(root);
 		root = ownLinkedListImp.insertPosition(root, 3, 1);
-//		root = ownLinkedList.insertPosition(root, 15, 10);  
+		//		root = ownLinkedList.insertPosition(root, 15, 10);  
 		root = ownLinkedListImp.insertPosition(root, 15, 4);
 
 		ownLinkedListImp.displayLinkedList(root);
@@ -84,10 +85,11 @@ class OwnLinkedListImp {
 		// check end Node of the linked list
 
 		/**
-		 * issue with blew code is that our root node is lost. Means root node became
+		 * issue with below code is that our root node is lost. Means root node became
 		 * our last node but root node should be our starting node.
 		 * 
 		 * while(root.next != null) { root = root.next; }
+		 * That's why we make the temp variable
 		 */
 
 		// sol^
